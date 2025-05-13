@@ -1,6 +1,6 @@
-# NanoTrader 
+# Nano-trader 
 
-**NanoTrader** is a high-performance, ultra-lightweight C++ matching engine designed to simulate an order book capable of processing 1 million synthetic orders in under 1.5 seconds.
+**Nano-trader** is a high-performance, ultra-lightweight C++ matching engine designed to simulate an order book capable of processing 1 million synthetic orders in under 1.5 seconds.
 
 ## Features
 
