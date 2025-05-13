@@ -1,0 +1,14 @@
+# Ignore build files
+/build/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
