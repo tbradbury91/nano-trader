@@ -1,6 +1,6 @@
-# Nano-Trader: Low-Latency Cryptocurrency Trading Bot
+# Nano-Trader: Low-Latency Trading Bot
 
-A lightweight, modular crypto trading bot focused on speed and simplicity, built to demonstrate ultra-low latency execution and market data handling.
+A lightweight, modular trading bot focused on speed and simplicity, built to demonstrate ultra-low latency execution and market data handling.
 
 ## Why Nano-Trader?
 
@@ -14,6 +14,12 @@ Nano-Trader processes live market data and executes trades with minimal delay. I
 - Asynchronous event-driven architecture  
 - Cross-platform build using CMake
 
+## Performance Highlights
+
+- Real-time market data processing with sub-millisecond latency
+- Efficient event loop minimizing CPU usage
+- Modular code designed for easy extension and customization
+
 ## How to Build and Run
 
 ```bash
@@ -23,9 +29,3 @@ mkdir build && cd build
 cmake ..
 make
 ./nano-trader --config ../config.json
-
-## Performance Highlights
-
-- Real-time market data processing with sub-millisecond latency
-- Efficient event loop minimizing CPU usage
-- Modular code designed for easy extension and customization
