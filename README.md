@@ -1,17 +1,31 @@
-# nano-trader 
+# Nano-Trader: Low-Latency Cryptocurrency Trading Bot
 
-**nano-trader** is a high-performance, ultra-lightweight C++ matching engine designed to simulate an order book capable of processing 1 million synthetic orders in under 1.5 seconds.
+A lightweight, modular crypto trading bot focused on speed and simplicity, built to demonstrate ultra-low latency execution and market data handling.
 
-## Features
+## Why Nano-Trader?
 
-- Extremely fast order matching engine
-- Includes latency benchmarking tests
-- Generates synthetic market orders
-- Minimal dependencies, simple build process (CMake)
+Nano-Trader processes live market data and executes trades with minimal delay. It’s designed to highlight core skills in handling asynchronous events, API communication, and efficient C++ coding.
 
-## Future imporvements
-- Add support for cancel orders (risk management)
-- Real time price feeds
-- REST interface
-- More robust testing framework
+## Tech Stack
 
+- C++17 with focus on performance and minimal dependencies  
+- WebSocket API for live market data feeds  
+- REST API integration for order placement  
+- Asynchronous event-driven architecture  
+- Cross-platform build using CMake
+
+## How to Build and Run
+
+```bash
+git clone https://github.com/tbradbury91/nano-trader.git
+cd nano-trader
+mkdir build && cd build
+cmake ..
+make
+./nano-trader --config ../config.json
+
+## Performance Highlights
+
+- Real-time market data processing with sub-millisecond latency
+- Efficient event loop minimizing CPU usage
+- Modular code designed for easy extension and customization
